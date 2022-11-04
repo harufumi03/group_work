@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
-  resources :user 
+  resources :users
   resources :blogs
 end
