@@ -1,3 +1,7 @@
+<%= link_to 'Sign up', new_user_path %>
+<%= link_to 'Log out', new_session_path %>
+
+
 <h1>Log in</h1>
 <%= form_with(scope: :session, url: sessions_path, local: true) do |f| %>
 
