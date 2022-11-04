@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-
-  resources :user 
+  get 'sessions/new'
+  resources :users
   resources :blogs
+  resources :sessions
 end
